@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+.header {
+    display: flex; 
+    background: rgb(115,103,240);
+    background: linear-gradient(141deg, rgba(115,103,240,1) 0%, rgba(206,159,252,1) 100%);
+    color: white;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    height: 30px;
+}
+
+.mainContainer {
+    width: 100%;
+    height: auto;
+    background-color: #FAF8F7;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cuadradoContainer {
+    background-color: white;
+    width: 33%;
+    height: 250px;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.cuadradoContainer__main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.cicon{
+    width: 60px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+.labelcuadrado{
+    color: rgb(189, 187, 187);
+    font-size: 12px;
+    margin-top: 20px;
+    left: 0;
+    text-align: center;
+}
+.ladoCuadrado{
+    margin-top: 20px;
+    width: 90%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
+
+.cuadradoContainer__calcular{
+    width: 100%;
+    height: 36%;
+    padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.getCPerimetro{
+    width: 80%;
+    height: 20px;
+    padding: 1px;
+    font-size: 11px;
+    background-color: #FAF8F7;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: #858585;
+    transition: transform 0.2s linear;
+}
+.getCArea{
+    width: 80%;
+    height: 20px;
+    margin-top: 10px;
+    padding: 1px;
+    font-size: 11px;
+    background-color: #FAF8F7;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: #858585;
+    transition: transform 0.2s linear;
+}
+
+.getCPerimetro:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.getCArea:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.getCArea:active {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.getCPerimetro:active {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/*TRIANGULO*/
+
+.trianguloContainer {
+    background-color: white;
+    width: 33%;
+    height: 250px;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.trianguloContainer__main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.ticon{
+    width: 60px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.labelTriangulo{
+    color: rgb(189, 187, 187);
+    font-size: 12px;
+    margin-top: 20px;
+    left: 0;
+    text-align: center;
+}
+.ladosTriangulo{
+    margin-top: 20px;
+    width: 90%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
+
+.trianguloContainer__calcular{
+    width: 100%;
+    height: 36%;
+    padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.getTPerimetro{
+    width: 80%;
+    height: 20px;
+    padding: 1px;
+    font-size: 11px;
+    background-color: #FAF8F7;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: #858585;
+    transition: transform 0.2s linear;
+}
+.getTArea{
+    width: 80%;
+    height: 20px;
+    margin-top: 10px;
+    padding: 1px;
+    font-size: 11px;
+    background-color: #FAF8F7;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: #858585;
+    transition: transform 0.2s linear;
+}
+
+.getTPerimetro:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.getTArea:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.getTArea:active {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.getTPerimetro:active {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/*CIRCULO*/
+.circuloContainer {
+    background-color: white;
+    width: 33%;
+    height: 250px;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.circuloContainer__main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.ciicon{
+    width: 60px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.labelCirculo{
+    color: rgb(189, 187, 187);
+    font-size: 12px;
+    margin-top: 20px;
+    left: 0;
+}
+.radioCirculo{
+    margin-top: 20px;
+    width: 90%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
+
+.circuloContainer__calcular{
+    width: 100%;
+    height: 36%;
+    padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.getCiPerimetro{
+    width: 80%;
+    height: 20px;
+    padding: 1px;
+    font-size: 11px;
+    background-color: #FAF8F7;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: #858585;
+    transition: transform 0.2s linear;
+}
+.getCiArea{
+    width: 80%;
+    height: 20px;
+    margin-top: 10px;
+    padding: 1px;
+    font-size: 11px;
+    background-color: #FAF8F7;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: #858585;
+    transition: transform 0.2s linear;
+}
+
+.getCiPerimetro:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.getCiArea:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+}
+
+.getCiArea:active {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.getCiPerimetro:active {
+    border: 1px solid rgb(0, 0, 0);
+}
