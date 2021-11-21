@@ -5,11 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras Geométricas</title>
+    <link rel="stylesheet" href="figuras.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     
-    <h1>Figuras Geométricas</h1>
+    <div class="header">
+        <h1>Figuras Geométricas</h1>
+    </div>
+    
 
+    <div class="mainContainer">
+
+        <div class="cuadradoContainer">
+            <div class="cuadradoContainer__main">
+                <div class="cicon"></div>
+                <label for="ladoCuadrado" class="labelcuadrado">Ingresa la medida de un lado del cuadrado.</label>
+                <input type="number" class="ladoCuadrado">
+            </div>
+            <div class="cuadradoContainer__calcular">
+                <button  class="getCPerimetro" value="Perímetro">Perimetro</button>
+                <button value="Área" class="getCArea">Área</button>
+            </div>
+        </div>
+
+        <div class="trianguloContainer">
+            <div class="trianguloContainer__main">
+                <div class="ticon"></div>
+                <label for="ladosTriangulo" class="labelTriangulo">Ingresa la medida de los lados del trinagulo.</label>
+                <input type="number" class="ladosTriangulo">
+            </div>
+            <div class="trianguloContainer__calcular">
+                <button value="Perímetro" class="getTPerimetro">Perimetro</button>
+                <button value="Área" class="getTArea">Área</button>
+            </div>
+        </div>
+
+        <div class="circuloContainer">
+            <div class="circuloContainer__main">
+                <div class="ciicon"></div>
+                <label for="radioCirculo" class="labelTriangulo">Ingresa el radio del circulo.</label>
+                <input type="number" class="radioCirculo">
+            </div>
+            <div class="circuloContainer__calcular">
+                <button value="Perímetro" class="getCiPerimetro">Perimetro</button>
+                <button value="Área" class="getCiArea">Área</button>
+            </div>
+        </div>
+
+    </div>
 <script src="figuras.js"></script>
 </body>
 </html>
