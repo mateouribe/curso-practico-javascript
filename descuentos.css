@@ -91,11 +91,17 @@ html {
     width: 100px;
     position: relative;
     left: 20px;
+    padding: 3px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
 }
 .getDescuento {
     width: 100px;
     position: relative;
     left: 20px;
+    padding: 3px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
 }
 
 .calcular {
