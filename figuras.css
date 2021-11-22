@@ -169,12 +169,19 @@ html {
     left: 0;
     text-align: center;
 }
-.ladosTriangulo{
+
+.lados {
+    display: flex;
+    flex-direction: row;
+}
+.lado1Triangulo , .lado2Triangulo, .lado3Triangulo, .baseTriangulo, .alturaTriangulo{
     margin-top: 20px;
-    width: 90%;
+    width: 35px;
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-left: 5px;
+    padding-left: 2px;
+    margin-left: 5px;
+    text-align: center;
 }
 
 
