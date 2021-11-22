@@ -12,24 +12,26 @@
 </head>
 <body>
     <div class="header">
-        <h1 class="title">Porcentajes y descuentos</h1>
+        <p class="title"><span>i</span>MarkUribe</p>
     </div>
     
 
     <div class="container">
-        <div class="shop__header">
-            <span>i</span><p>Markuribe</p>
-        </div>
-        <div class="main">
-            <label for="precio" class="labelPrecio">Precio</label>
-            <input type="number" class="getPrecio">
-            <label for="descuento" class="labelDescuento">Descuento</label>
-            <input type="number" class="getDescuento">
-        </div>
-        <div class="get">
-            <button class="calcular">Calcular</button>
-            <label for="precioPagar">Precio final a pagar.</label>
-            <div class="resultado"></div>
+        <div class="container__main">
+            <div class="shop__header">
+                <span></span><p>  Porcentajes y descuentos</p>
+            </div>
+            <div class="main">
+                <label for="precio" class="labelPrecio">Precio:</label>
+                <input type="number" class="getPrecio"> <br>
+                <label for="descuento" class="labelDescuento">Descuento:</label>
+                <input type="number" class="getDescuento"> <br>
+                <button class="calcular" onclick="totalPay()">Calcular</button>
+            </div>
+            <div class="get">
+                <label for="precioPagar">Precio final a pagar:</label>
+                <div class="resultado"></div>
+            </div>
         </div>
     </div>
 

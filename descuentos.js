@@ -1,5 +1,3 @@
-const precioOriginal = 100; 
-const descuento = 15; 
 
 
 
@@ -10,4 +8,15 @@ function calcularPrecioConDescuento(precio, descuento){
     return precioConDescuento;
 }
 
+
+
+function totalPay(){
+    const precioH = document.querySelector(".getPrecio").value;
+    const descuentoH = document.querySelector(".getDescuento").value;
+
+    const precioFinal = calcularPrecioConDescuento(precioH, descuentoH);
+    const espacio = document.querySelector(".resultado");
+    
+    espacio.innerHTML += precioFinal + "$"
+}
 
