@@ -38,3 +38,12 @@ function areaCirculo(radio) {
 }
 
 console.groupEnd();
+
+//CÓDIGO ALTURA TRIANGULO ISÓSCELES
+
+
+function alturaTriangulo(l1, b) {
+    const mitad = b/2;
+    const altura = (l1*l1)-(mitad*mitad);
+    return console.log(Math.sqrt(altura));
+}
