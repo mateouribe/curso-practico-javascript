@@ -102,3 +102,20 @@ function calcularAreaCirculo() {
     const areaCi = areaCirculo(valueCirculo);
     console.log(areaCi);
 }
+
+function calcularAltura(){
+    const inputAltura = document.querySelector(".alturaTr")
+}
+//CÓDIGO ALTURA TRIANGULO ISÓSCELES
+
+
+function alturaTriangulo(l1, l2, b) {
+    if(l1 !== l2) {
+        alert("Los lados a y c no son iguales");
+    }else{
+        const mitad = b/2;
+        const altura = (l1*l1)-(mitad*mitad);
+        return console.log(Math.sqrt(altura));
+    }
+    
+}
