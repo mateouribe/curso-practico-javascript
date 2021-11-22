@@ -5,11 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porcentajes y descuentos</title>
+    <link rel="stylesheet" href="descuentos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <div class="header">
+        <h1 class="title">Porcentajes y descuentos</h1>
+    </div>
     
-    <h1>Porcentajes y descuentos</h1>
 
+    <div class="container">
+        <div class="shop__header">
+            <span>i</span><p>Markuribe</p>
+        </div>
+        <div class="main">
+            <label for="precio" class="labelPrecio">Precio</label>
+            <input type="number" class="getPrecio">
+            <label for="descuento" class="labelDescuento">Descuento</label>
+            <input type="number" class="getDescuento">
+        </div>
+        <div class="get">
+            <button class="calcular">Calcular</button>
+            <label for="precioPagar">Precio final a pagar.</label>
+            <div class="resultado"></div>
+        </div>
+    </div>
 
     <script src="descuentos.js"></script>
 </body>
