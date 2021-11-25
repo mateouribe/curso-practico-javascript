@@ -33,17 +33,18 @@ html {
     padding: 40px;
 }
 
-.container__main {
+.container__main, .container__main2 {
     width: 100%;
-    height: 210px;
+    height: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 5px;
     padding-top: 7px;
     box-shadow: 0px 0px 4px rgba(89,73,30,0.1);
+    margin-bottom: 20px;
 }
 
-.shop__header {
+.shop__header, .shop__header2{
     height: 30px;
     display: flex;
     font-size: 15px;
@@ -64,7 +65,7 @@ html {
     display: inline-block;
 }
 
-.main {
+.main, .main2{
     margin-top: 20px;
     color: white;
     height: auto;
@@ -74,20 +75,20 @@ html {
     border-radius: 5px;
 }
 
-.main label {
+.main label, .main2 label {
     color: black;
     display: inline-block;
     color: rgb(170, 172, 172);
     
 }
 
-.labelPrecio {
+.labelPrecio, .labelPrecioC {
     margin-right: 22px;
     margin-bottom: 10px;
     
 }
 
-.getPrecio {
+.getPrecio{
     width: 100px;
     position: relative;
     left: 20px;
@@ -95,6 +96,16 @@ html {
     border: 1px solid rgb(173, 173, 173);
     border-radius: 5px;
 }
+
+.getPrecioC {
+    width: 100px;
+    position: relative;
+    left: 20px;
+    padding: 3px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+}
+
 .getDescuento {
     width: 100px;
     position: relative;
@@ -104,6 +115,14 @@ html {
     border-radius: 5px;
 }
 
+.getCupon {
+    width: 100px;
+    position: relative;
+    left: 30px;
+    padding: 3px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+}
 .calcular {
     width: 130px;
     margin-top: 15px;
@@ -122,15 +141,21 @@ html {
     box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
 }
 
-.get {
+.get, .get2 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 15px;
     padding-left: 30px;
+    padding-bottom: 15px;
 }
 
-.resultado {
+.get label, .get2 label {
+    font-size: 18px;
+    color: rgb(131, 130, 128);
+    
+}
+.resultado , .resultados {
     margin-left: 10px;
     width: 100px;
     height: 20px;
